@@ -35,6 +35,18 @@ const QuotesApp = () => {
                 <button className="btn btn-new-quote" onClick={fetchNewQuote}>New Quote</button>
                 <button className="btn btn-favorite">Add to Favorites</button>
             </div>
+            <div className="favorites">
+                <button className="btn-close">
+                    <i className="bx bx-x"></i>
+                </button>
+                <div className="fav-quote">
+                    <div className="fav-quote-delete">
+                        <i className="bx bx-x-circle"></i>
+                    </div>
+                    <div className="fav-quote-text">HI! I am in the favorite</div>
+                    <div className="fav-quote-author">Shivansh</div>
+                </div>
+            </div>
         </div>
     </div>
 }
